@@ -11,9 +11,17 @@ Microsoft Storeで「Ubuntu」で検索して
 Ubuntuのターミナルで
 ```bash
 sudo apt update
+```
+```bash
 sudo apt upgrade
+```
+```bash
 curl -sSL https://get.docker.com/ | sh
+```
+```bash
 sudo usermod -aG docker $USER
+```
+```bash
 docker -v
 ```
 でバージョンが確認できたらOK
